@@ -12,7 +12,7 @@ body{
 .img-a{
     position: absolute;
     height: 100%;
-    width: 50%;
+    width: 58%;
     right: 0;
     background-image: url("./photo1.jpg");
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@ body{
 .img-b{
     position: absolute;
     height: 100%;
-    width: 50%;
+    width: 58%;
     left: 0;
     background-image: url("./photo7.jpg");
     background-repeat: no-repeat;
@@ -38,8 +38,7 @@ body{
     left: 0;
     width: 58%;
     height: 100%;
-    border-radius: 0px 30% 30% 0px;
-    box-shadow: 10px 5px 15px rgb(177, 177, 177);
+    border-radius: 0px 20% 20% 0px;
 }
 .outline{
     background: none;
@@ -47,7 +46,7 @@ body{
     margin-left: 18px;
     width: 94%;
     height: 94%;
-    border-radius: 0px 30% 30% 0px;
+    border-radius: 0px 20% 20% 0px;
     outline: 1px solid	#49535a;
 }
 .container-login{
@@ -179,8 +178,7 @@ span.text::before{
     right: 0;
     width: 58%;
     height: 100%;
-    border-radius: 30% 0 0 30%;
-    box-shadow: 10px 5px 15px rgb(177, 177, 177);
+    border-radius: 20% 0 0 20%;
 }
 .outline-b{
     background: none;
@@ -188,7 +186,7 @@ span.text::before{
     margin-left: 18px;
     width: 94%;
     height: 94%;
-    border-radius: 30% 0 0 30%;
+    border-radius: 20% 0 0 20%;
     outline: 1px solid	#49535a;
 }
 .container-register{
@@ -270,10 +268,10 @@ span.text::before{
     font-weight: bold;
 }
 .active {
-    transition: all 1s ease-in-out;
+    transition: all 0.8s ease-out;
 }
 .animated {
-    transition: transform 1s ease-in-out;
+    transition: transform 0.8s ease-in;
 }
 .wrapper.active {
     transform: translateX(-100%);
@@ -285,5 +283,5 @@ span.text::before{
     transform: translateX(100%);
 }
 .img-b.active{
-    transform: translateX(100%);
+    transform: translateX(-100%);
 }
