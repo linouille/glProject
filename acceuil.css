@@ -77,6 +77,7 @@ span.accueil{
     text-align: center;
     cursor: pointer;
     transition: all 0.2s ease;
+    /*box-shadow: 0 3px 26px hsla(0, 0%, 23%, 0.26);*/
 }
 .container-rdv:hover{
     transform: scale(0.97);
@@ -105,6 +106,7 @@ span.accueil{
     text-align: center;
     cursor: pointer;
     transition: all 0.2s ease;
+    box-shadow: 0 3px 26px hsla(0, 0%, 23%, 0.26);
 }
 .container-his h1{
     margin-top: 15px;
@@ -134,6 +136,7 @@ span.accueil{
     text-align: center;
     cursor: pointer;
     transition: all 0.2s ease;
+    box-shadow: 0 3px 26px hsla(0, 0%, 23%, 0.26);
 }
 .container-fb:hover{
     transform: scale(0.97);
